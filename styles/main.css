@@ -1,0 +1,147 @@
+.crossroads {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 2px solid black;
+}
+.crossroads .yellow {
+  background: yellow;
+}
+.crossroads .vertical-border {
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to top, black 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: right;
+  background-size: 1px 140px;
+  background-repeat: repeat-y;
+}
+.crossroads .vertical-border div {
+  width: 250px;
+  height: 250px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.crossroads .vertical-border div .trafficLightsTopRight {
+  width: 15px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+.crossroads .vertical-border div .trafficLightsTopRight div {
+  width: 13px;
+  height: 13px;
+  border-radius: 7px;
+}
+.crossroads .horizontal-border {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to right, black 30%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 170px 1px;
+  background-repeat: repeat-x;
+}
+.crossroads .horizontal-border div {
+  width: 250px;
+  height: 250px;
+  border: 1px solid grey;
+  display: flex;
+  align-items: flex-end;
+}
+.crossroads .horizontal-border div .trafficLightsTopleft {
+  width: 15px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+.crossroads .horizontal-border div .trafficLightsTopleft div {
+  width: 13px;
+  height: 13px;
+  border-radius: 7px;
+}
+.crossroads .horizontal-border-top {
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to left, black 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: top;
+  background-size: 140px 1px;
+  background-repeat: repeat-x;
+}
+.crossroads .horizontal-border-top div {
+  width: 250px;
+  height: 250px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: flex-end;
+}
+.crossroads .horizontal-border-top div .trafficLightsBottomleft {
+  width: 15px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+.crossroads .horizontal-border-top div .trafficLightsBottomleft div {
+  width: 13px;
+  height: 13px;
+  border-radius: 7px;
+}
+.crossroads .vertical-border-left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: left;
+  background-size: 1px 140px;
+  background-repeat: repeat-y;
+}
+.crossroads .vertical-border-left div {
+  width: 250px;
+  height: 250px;
+  border: 1px solid grey;
+  display: flex;
+}
+.crossroads .vertical-border-left div .trafficLightsBottomrigth {
+  width: 15px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+.crossroads .vertical-border-left div .trafficLightsBottomrigth div {
+  width: 13px;
+  height: 13px;
+  border-radius: 7px;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}/*# sourceMappingURL=main.css.map */
