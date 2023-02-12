@@ -157,10 +157,21 @@
     background: red;
 }
 
-.yellow{
-    background: yellow;
+.yellow {
+    animation:flicker 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+@keyframes flicker {
+    0%{
+        background: yellow;;
+    }
+    100%{
+        background: white;;
+    }
 }
 
 .green{
     background: green;
 }
+
+
